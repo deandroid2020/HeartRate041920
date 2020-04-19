@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HeartRate2020</string>
+    <string name="person">TODO</string>
+    <string name="patient_profile">Patient Profile</string>
+    <string name="patientProfile" translatable="false">" Patient Profile"</string>
+    <string name="curentstatus">الوضع الحالي</string>
+    <string name="bpm">BPM</string>
+    <string name="rate">90-100</string>
+    <string name="logout">LogOut</string>
+    <string name="background" />
+    <string name="rateh">rate</string>
+    <string name="statvalueh">طبيعي</string>
+    <string name="nnnn">الآسم:</string>
+    <string name="emrcontactnumber">الرقم:</string>
+    <string name="cancelabel">Cancel</string>
+    <string name="donelabel">Done</string>
+    <string name="contacinfo">للتواصل في حالات الطوارئ:</string>
+</resources>

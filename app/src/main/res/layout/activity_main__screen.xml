@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center"
+    tools:context=".Main_Screen">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:src="@drawable/background_icon" />
+
+    <Button
+        android:id="@+id/BtnViewp"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:onClick="ViewP"
+
+        android:text="Manage Petiont"
+        android:textSize="25dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+
+        android:text="Veiw Alerts" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="25dp"
+        android:text="Veiw Reports" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5" />
+
+
+</LinearLayout>

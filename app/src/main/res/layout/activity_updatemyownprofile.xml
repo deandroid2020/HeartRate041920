@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".My_Acts.updatemyownprofile">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/itextcancle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelabel"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:gravity="start"
+            />
+
+
+        <TextView
+            android:id="@+id/itextdone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/donelabel"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_weight="0.5"
+            android:gravity="end"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/background_icon"
+        android:layout_marginTop="40dp"
+        android:layout_weight="0.3"
+        android:layout_gravity="center"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:id="@+id/ipprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patientProfile"
+            android:textSize="25sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iimageView3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="3"
+            android:contentDescription="@string/person"
+            android:src="@drawable/person" />
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ieditTextpname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+
+            />
+
+        <TextView
+            android:id="@+id/itextViewpname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="الآسم:"
+            android:textSize="30sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ieditTextage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/itextViewage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="العمر:"
+            android:textSize="30sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ieditTextaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/itextViewaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="العنوان:"
+            android:textSize="30sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/ieditTextnatiunality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            />
+
+        <TextView
+            android:id="@+id/itextViewnatiunality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="الجنسية:"
+            android:textSize="30sp" />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            />
+
+        <TextView
+            android:id="@+id/itextViewemergincy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:text="@string/contacinfo"
+            android:textSize="27sp" />
+
+
+        <TextView
+            android:id="@+id/iemrconcatname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="@string/nnnn"
+            android:textSize="20sp" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/iemrname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+
+
+
+        <TextView
+            android:id="@+id/iemrconcatnumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:text="@string/emrcontactnumber"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/iemrmobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/updatemebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/editbtn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
